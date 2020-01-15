@@ -13,8 +13,8 @@ public class Number2StringTest {
             "5,buzz",
             "15,fizzbuzz"
     })
-    public void testFizzBuzz(int input,String output){
+    public void testFizzBuzz(int input, String output) {
         Number2String number2String = new Number2String();
-        Assert.assertEquals(output,number2String.trans(input));
+        Assert.assertEquals(output, number2String.trans(input));
     }
 }
