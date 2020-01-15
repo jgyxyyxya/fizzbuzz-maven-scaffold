@@ -2,16 +2,16 @@ public class Number2String {
     public String trans(int input) {
         String actOutput = "";
         if (input % 3 == 0) {
-            actOutput =  "fizz";
+            actOutput = "fizz";
         }
         if (input % 5 == 0) {
-            actOutput =  "buzz";
+            actOutput = "buzz";
         }
         if (input % 3 == 0 && input % 5 == 0) {
-            actOutput =  "fizzbuzz";
+            actOutput = "fizzbuzz";
         }
-        if (!"".equals(actOutput)){
-            return  actOutput;
+        if (!"".equals(actOutput)) {
+            return actOutput;
         }
         return String.valueOf(input);
     }
